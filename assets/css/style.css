@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+
+header {
+    background-color: white;
+    height: 100px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: white;
+    font-size: 26px;
+    line-height: 100px;
+}
+
+.name-tab {
+    background-color: #4aaaa5;
+    float: left;
+    height: 100%;
+    margin: 0;
+    margin-left: 150px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-right: 490px;
+}
+
+nav {
+    float: left;
+    height: 100%;
+    font-size: 20px;
+    background-color: white;
+    color: #777777;
+}
+
+nav a {
+    text-decoration: none;
+    color: #777777;
+}
+
+.matting {
+    margin: 0;
+    padding: 0;
+    height: 800px;
+}
+
+.main {
+    float: left;
+    margin-top: 40px;
+    margin-left: 150px;
+    padding: 30px;
+    background-color: white;
+    width: 650px;
+}
+
+#header-name {
+    font-size: 26px;
+}
+
+#about-me {
+    font-size: 24px;
+    padding-bottom: 10px;
+    text-align: left;
+    color: #4aaaa5;
+}
+
+.profile-pic {
+    float: left;
+}
+
+.connect {
+    margin-top: 40px;
+    margin-left: 40px;
+    background-color: white;
+    width: 270px;
+    float: left;
+    padding: 30px;
+}
+
+#connect-text {
+    text-align: left;
+    font-size: 22px;
+    padding-bottom: 10px;
+    color: #4aaaa5;
+}
+
+#octocat-img {
+    float: left;
+}
+
+#linkedin-img {
+    float: left;
+}
+
+#stackoverflow-img {
+    float: left;
+}
+
+footer {
+    background-color: #666666;
+    height: 80px;
+    border-style: solid;
+    border-top-width: 10px;
+    border-top-color: #4aaaa5;
+    line-height: 80px;
+    font-size: 20px;
+    color: #777777;
+}

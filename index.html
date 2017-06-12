@@ -3,24 +3,43 @@
     <head>
         <meta charset="UTF-8">
         <title>Jeff Romine</title>
+        <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
         <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     </head>
     <body>
-        <div class="wall">
-            <div class="name-tab">Jeff Romine</div>
-            <div class="about">
-                <h2>About Me</h2>
+        <header>
+            <div class="name-tab">
+                <div id="header-name">Jeff Romine</div>
+            </div>
+            <nav>
+                <a href="#">About</a> |
+                <a href="portfolio.html">Portfolio</a> |
+                <a href="contact.html">Contact</a>
+            </nav>
+        </header>
 
+        <div class="matting" style="background-image:url(assets/images/textured_paper.png)">
+            <div class="main">
+                <div id="about-me">About Me</div>
+
+                <hr>
                 <!-- separator goes here -->
-                <p><img id="profile-pic" src="assets/images/me.jpg" height="200" width="180"></p>
+                <!-- <img class="bio-image" src="https://placehold.it/300x300" alt="Jeff Romine"> -->
+                <img class="profile-pic" src="assets/images/me.jpg" height="200" width="180">
                 <p>This is supposed to contain a paragraph about me.</p>
             </div>
             <div class="connect">
-                <h3>Connect with Me</h3>
-                <!-- separator -->
-                <p><img id="octocat-img" src="assets/images/octocat.png"></p>
-                <p><img id="linkedin-img" src="assets/images/linkedin.png"></p>
+                <div id="connect-text">Connect with Me</div>
+                <hr>
+                <div class="connect-links">
+                    <p><img id="octocat-img" src="assets/images/octocat.png"  height="60" width="60"></p>
+                    <p><img id="linkedin-img" src="assets/images/linkedin.png" height="60" width="60"></p>
+                    <p><img id="stackoverflow-img" src="assets/images/linkedin.png" height="60" width="60"></p>
+                </div>
             </div>
         </div>
+        <footer>
+            &#x24B8; Jeff Romine 2017
+        </footer>
     </body>
 </html>
