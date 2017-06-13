@@ -1,62 +1,74 @@
 * {
-  box-sizing: border-box;
-  text-align: center;
+    box-sizing: border-box;
+    text-align: center;
 }
-
 
 header {
     background-color: white;
-    height: 100px;
+    height: 90px;
     font-family: 'Georgia', Times, Times New Roman, serif;
     color: white;
     font-size: 26px;
-    line-height: 100px;
+    line-height: 90px;
+    background-color: #ffffff;
+}
+
+.normal-text {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
 }
 
 .name-tab {
     background-color: #4aaaa5;
+    width: 210px;
     float: left;
-    height: 100%;
-    margin: 0;
-    margin-left: 150px;
-    padding-left: 30px;
-    padding-right: 30px;
-    margin-right: 490px;
+    height: 80px;
+    margin: 10px 480px 0px 80px;
+    text-align: center;
+}
+
+#header-name {
+    width: 210px;
+    float: left;
 }
 
 nav {
     float: left;
     height: 100%;
-    font-size: 20px;
+    font-size: 18px;
     background-color: white;
-    color: #777777;
+    width: 270px;
 }
 
 nav a {
     text-decoration: none;
-    color: #777777;
 }
 
 .matting {
     margin: 0;
-    padding: 0;
-    height: 800px;
+    padding-top: 40px;
+    height: 1000px;
 }
 
 .main {
     float: left;
-    margin-top: 40px;
-    margin-left: 150px;
+    margin-top: 0px;
+    margin-left: 80px;
+    margin-right: 40px;
     padding: 30px;
     background-color: white;
     width: 650px;
+    border: solid;
+    border-width: 2px;
+    border-color: #dddddd;
 }
 
 #header-name {
-    font-size: 26px;
+    font-size: 28px;
+    line-height: 90px;
 }
 
-#about-me {
+#main-heading {
     font-size: 24px;
     padding-bottom: 10px;
     text-align: left;
@@ -67,16 +79,21 @@ nav a {
     float: left;
 }
 
-.connect {
-    margin-top: 40px;
-    margin-left: 40px;
+.sidebar {
+    margin: 0;
     background-color: white;
+    font-size: 20px;
+    color: #4aaaa5;
     width: 270px;
     float: left;
     padding: 30px;
 }
 
-#connect-text {
+.sidebar h3 {
+    text-align: left;
+}
+
+#sidebar-text {
     text-align: left;
     font-size: 22px;
     padding-bottom: 10px;
@@ -95,13 +112,21 @@ nav a {
     float: left;
 }
 
+body {
+    margin: 0 0 80px;
+}
+
 footer {
     background-color: #666666;
-    height: 80px;
     border-style: solid;
-    border-top-width: 10px;
+    border-top-width: 8px;
     border-top-color: #4aaaa5;
     line-height: 80px;
     font-size: 20px;
     color: #777777;
+    height: 80px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
