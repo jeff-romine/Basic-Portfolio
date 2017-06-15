@@ -126,11 +126,23 @@ nav a {
     height: 30px;
 }
 
+.contact-form {
+    display: block;
+    text-align: left;
+    width: 100%;
+}
+
+.contact-input {
+    width: 100%;
+    text-align: left;
+}
+.message-text {
+    width: 100%;
+}
 html, body {
     height: 100%;
     margin: 0;
 }
-
 .wrapper {
     min-height: 100%;
     /* Equal to height of footer */
