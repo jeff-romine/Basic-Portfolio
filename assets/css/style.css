@@ -1,3 +1,5 @@
+
+/* global */
 * {
     box-sizing: border-box;
     text-align: center;
@@ -8,8 +10,8 @@ header {
     height: 90px;
     font-family: 'Georgia', Times, Times New Roman, serif;
     color: white;
-    font-size: 26px;
-    line-height: 90px;
+    /*font-size: 30px;*/
+    line-height: 80px;
     background-color: #ffffff;
 }
 
@@ -19,66 +21,64 @@ header {
 }
 
 .name-tab {
-    background-color: #4aaaa5;
+    font-size: 32px;
+    line-height: 90px;
     width: 210px;
+    float: left;
+
+    background-color: #4aaaa5;
+    width: 230px;
     float: left;
     height: 80px;
-    margin: 10px 480px 0px 80px;
+    margin: 10px 460px 0px 80px;
     text-align: center;
-}
-
-#header-name {
-    width: 210px;
-    float: left;
 }
 
 nav {
     float: left;
-    height: 100%;
-    font-size: 18px;
+    font-size: 20px;
     background-color: white;
     width: 270px;
+    height: 80px;
+    margin-top: 10px;
 }
 
 nav a {
     text-decoration: none;
 }
 
-.matting {
+#content-container {
     margin: 0;
     padding-top: 40px;
 }
 
-.main {
+#content-container::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+#content-main {
     float: left;
     margin-top: 0px;
     margin-left: 80px;
     margin-right: 40px;
     padding: 30px;
     background-color: white;
-    width: 650px;
+    width: 648px;
     border: solid;
-    border-width: 2px;
-    border-color: #dddddd;
-}
-.matting::after {
-    display: block;
-    content: "";
-    clear: both;
+    border-width: 1px;
+    /* made this a little darker than specified (#dddddd) since my background is darker */
+    border-color: #cccccc;
 }
 .main-hr {
     border: none;
-    height: 4px;
-    background-color: #777777;
-}
-
-#header-name {
-    font-size: 28px;
-    line-height: 90px;
+    height: 3px;
+    background-color: #ddd;
 }
 
 #main-heading {
-    font-size: 24px;
+    font-size: 32px;
     padding-bottom: 10px;
     text-align: left;
     color: #4aaaa5;
@@ -91,49 +91,54 @@ nav a {
 .sidebar {
     margin: 0;
     background-color: white;
-    font-size: 20px;
     color: #4aaaa5;
     width: 270px;
     float: left;
-    padding: 30px;
+    padding: 28px;
+    border: solid;
+    border-width: 1px;
+    border-color: #cccccc; /* made this a little darker than specified since my background is darker */
 }
 
 .sidebar h3 {
     text-align: left;
 }
+.sidebar-hr {
+    border: none;
+    height: 2px;
+    background-color: #ddd;
+}
 
-#sidebar-text {
+#sidebar-heading {
     text-align: left;
-    font-size: 22px;
+    font-size: 26px;
     padding-bottom: 10px;
     color: #4aaaa5;
 }
-
-#octocat-img {
+.sidebar-img {
     float: left;
+    height: 70px;
+    width: 70px;
 }
 
-#linkedin-img {
-    float: left;
-}
-
-#stackoverflow-img {
-    float: left;
+.sidebar-fill {
+    clear: both;
+    height: 30px;
 }
 
 html, body {
     height: 100%;
     margin: 0;
 }
+
 .wrapper {
     min-height: 100%;
     /* Equal to height of footer */
     /* But also accounting for potential margin-bottom of last child */
-    margin-bottom: -80px;
+    margin-bottom: -88px;
 }
 
-.footer,
-.push {
+.footer {
     height: 80px;
 }
 
