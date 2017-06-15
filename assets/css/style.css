@@ -150,6 +150,50 @@ html, body {
     margin-bottom: -88px;
 }
 
+.image-tag-container {
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.image-tag-container-left {
+    float: left;
+}
+
+.image-tag-container-right {
+    float: right;
+}
+.image-tag-left {
+    float: left;
+    position: absolute;
+    left: 0px;
+    top: 125px;
+    width: 100%;
+    height: 60px;
+    line-height: 100%;
+    z-index: 1000;
+    background-color: #4aaaa5;
+    padding: 5px;
+    color: #FFFFFF;
+    font-size: 28px;
+    line-height: 60px;
+}
+
+.image-tag-right {
+    float: right;
+    position: absolute;
+    left: 0px;
+    top: 125px;
+    width: 100%;
+    height: 60px;
+    line-height: 100%;
+    z-index: 1000;
+    background-color: #4aaaa5;
+    padding: 5px;
+    color: #FFFFFF;
+    font-size: 28px;
+    line-height: 60px;
+}
+
 .footer {
     height: 80px;
 }
