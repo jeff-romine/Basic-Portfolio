@@ -136,18 +136,23 @@ nav a {
     width: 100%;
     text-align: left;
 }
+
 .message-text {
     width: 100%;
 }
+
 html, body {
     height: 100%;
     margin: 0;
 }
+
 .wrapper {
     min-height: 100%;
     /* Equal to height of footer */
     /* But also accounting for potential margin-bottom of last child */
     margin-bottom: -88px;
+    min-width: 750px;
+    width: auto;
 }
 
 .image-tag-container {
@@ -162,39 +167,32 @@ html, body {
 .image-tag-container-right {
     float: right;
 }
-.image-tag-left {
-    float: left;
+
+.image-tag {
     position: absolute;
     left: 0px;
     top: 125px;
     width: 100%;
     height: 60px;
-    line-height: 100%;
-    z-index: 1000;
+    line-height: 60px;
+    z-index: 100;
     background-color: #4aaaa5;
-    padding: 5px;
+    padding: 0;
     color: #FFFFFF;
     font-size: 28px;
     line-height: 60px;
+}
+
+.image-tag-left {
+    float: left;
 }
 
 .image-tag-right {
     float: right;
-    position: absolute;
-    left: 0px;
-    top: 125px;
-    width: 100%;
-    height: 60px;
-    line-height: 100%;
-    z-index: 1000;
-    background-color: #4aaaa5;
-    padding: 5px;
-    color: #FFFFFF;
-    font-size: 28px;
-    line-height: 60px;
 }
 
-.footer {
+.footer,
+.push {
     height: 80px;
 }
 
@@ -211,4 +209,5 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
+    z-index: 200;
 }
